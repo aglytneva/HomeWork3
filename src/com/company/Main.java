@@ -51,5 +51,22 @@ public class Main {
             System.out.println("Для доставки на дистанцию "+ deliveryDistance + " км потребуется "+
                    +AlltimeOfDelivery+ " дней (я)");
         }
-    }}
+    System.out.println( "  ");
+
+    System.out.println( "   Задание 5.");
+    int monthNumber = 13;
+    switch (monthNumber) {
+        case 1,2,12 ->
+            System.out.println("Зима");
+        case 3,4,5->
+            System.out.println("Весна");
+        case 6,7,8 ->
+            System.out.println("Лето");
+        case 9,10,11 ->
+            System.out.println("Осень");
+        default ->
+            System.out.println("Введите номер месяца от 1 до 12");
+    }
+    }
+}
 
